@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel .legend {
+  bottom: -15px;
+  background: rgba(0, 0, 0, .5);
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
