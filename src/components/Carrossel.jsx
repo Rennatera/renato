@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 // ✅ Corrija aqui os imports das imagens
 import easy002 from '../assets/easy002.png';
 import molinos3 from '../assets/molinos001.png';
-import jacto01 from '../assets/jacto01.png';
+import oba from '../assets/oba.png';
 import carrossel3 from '../assets/carrossel3.png';
 
 function Carrossel() {
@@ -52,7 +52,7 @@ function Carrossel() {
           {/* Slide 3 */}
           <div>
             <img
-              src={jacto01}
+              src={oba}
               alt="Slide 3"
               className="object-contain w-full h-[600px]"
             />
