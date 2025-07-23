@@ -51,7 +51,7 @@ function About() {
     en: {
       title: 'About me',
       description:
-        'My passion for technology started in childhood and in 2010, I took my first professional steps in the field. Since then, I’ve been improving my skills and participating in relevant projects across Brazil and Latin America.\n\nCurrently, I specialize in management systems such as SAP and EasyWMS®, focusing on functional analysis, logistics optimization, and systems integration.',
+        'My passion for technology began in childhood, and in 2010 I took my first professional steps in the field by performing hardware maintenance, computer formatting, and electronic repairs at Unicamp. Over time, I deepened my knowledge as a systems analyst, working with SQL, Oracle, and C# .NET development. Later, I transitioned into the business area, where I gained a more strategic and integrated view of processes. I’m always motivated to grow, enhance my skills, and contribute with solutions that efficiently connect stakeholders needs.',
       skillsLabel: 'Skills',
       educationLabel: 'Education',
       experienceLabel: 'Experience',
@@ -91,7 +91,7 @@ function About() {
     es: {
       title: 'Sobre mí',
       description:
-        'Mi pasión por la tecnología comenzó en la infancia y, en 2010, di mis primeros pasos profesionales en el área. Desde entonces, he estado mejorando mis habilidades y participando en proyectos relevantes en Brasil y América Latina.\n\nActualmente, soy especialista en sistemas de gestión como SAP y EasyWMS®, con enfoque en análisis funcional, optimización logística e integración de sistemas.',
+        'Mi pasión por la tecnología comenzó en la infancia y, en 2010, di mis primeros pasos profesionales en el área, realizando mantenimiento de hardware, formateo de computadoras y reparaciones electrónicas en la Unicamp. Con el tiempo, profundicé mis conocimientos como analista de sistemas, trabajando con SQL, Oracle y desarrollo en C# .NET. Posteriormente, migré al área de negocios, donde adquirí una visión más estratégica e integrada de los procesos. Siempre estoy motivado a evolucionar, mejorar mis conocimientos y contribuir con soluciones que conecten de manera eficiente las necesidades de los stakeholders.',
       skillsLabel: 'Habilidades',
       educationLabel: 'Educación',
       experienceLabel: 'Experiencia',
@@ -103,12 +103,6 @@ function About() {
         'Resolución de discrepancias de inventario y procesos logísticos',
         'Recolección de requisitos con stakeholders',
         'Comunicación clara y documentación de procesos',
-        'q',
-        'q',
-        'q',
-        '',
-        '',
-        '',
       ],
       education: [
         'Técnico en Electroelectrónica - COTUCA Unicamp',
@@ -142,23 +136,16 @@ function About() {
     <section id="about" className="bg-gray-900 py-12">
       <div className="max-w-7xl mx-auto px-4">
         <div className="bg-gray-100 text-black rounded-2xl p-10 flex flex-col md:flex-row items-start gap-8 h-[500px]">
-
-
           {/* Imagem */}
           <div className="md:w-2/5 flex justify-center items-center h-full">
-
             <img src={computadorImg} alt="Computador" className="w-full max-w-xs md:max-w-sm rounded-xl shadow-md"/>
           </div>
-
-
           {/* Texto + abas */}
           <div className="md:w-3/5 md:pl-10 overflow-y-auto pr-2 h-full">
-
             <h2 className="text-3xl font-bold mb-4">{t.title}</h2>
             <p className="mb-4 text-justify text-gray-800 whitespace-pre-line">
               {t.description}
             </p>
-
             {/* Tabs */}
             <div className="flex gap-4 mb-4 text-gray-400 font-semibold">
               {['skills', 'education', 'tools', 'experience'].map((tab) => (
@@ -173,7 +160,6 @@ function About() {
                 </span>
               ))}
             </div>
-
             {/* Conteúdo das abas */}
             {activeTab === 'skills' && (
               <ul className="list-disc pl-6 text-gray-700">
