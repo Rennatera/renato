@@ -62,16 +62,7 @@ function Carrossel() {
           </div>
 
           {/* Slide 4 */}
-          <div>
-            <img
-              src={carrossel3}
-              alt="Slide 4"
-              className="object-contain w-full h-[600px]"
-            />
-            <p className="bg-black/70 px-4 py-2 rounded text-sm text-white mt-4 w-fit mx-auto">
-              Projeto 3: Integração com APIs
-            </p>
-          </div>
+         
         </Carousel>
       </div>
     </section>
